@@ -14,8 +14,7 @@ def encrypt(c):
     global cipher
     k=random.randint(33,126)
     key.append(chr(k))
-    casc=ord(c)
-    cbin=format(casc,"08b")
+    cbin=format(ord(c),"08b")
     kbin=format(k,"08b")
     cibin=[]
     for i in range(8):
