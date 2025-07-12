@@ -11,3 +11,6 @@ use the vernam decoder to decode the encoded line of text
 only one line of text can be encoded at a time
 
 languages other than english which do not use alphabet are not likely to work
+ 
+you can try the web version here:<br/>
+https://vernam-encoder.streamlit.app
